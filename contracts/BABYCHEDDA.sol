@@ -19,7 +19,6 @@ contract BABYCHEDDA is ERC20, Ownable {
 
 	bool private swapping;
 
-	// BABYCHEDDADividendTracker public oldDividendTracker;
 	BABYCHEDDADividendTracker public dividendTracker;
 
 	address public deadWallet = 0x000000000000000000000000000000000000dEaD;
